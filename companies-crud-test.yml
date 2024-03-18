@@ -1,1 +1,8 @@
-
+spring:
+  datasource:
+    username: jplausi-test
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 20000
+    url: jdbc:postgresql://localhost:5433/companies-test
+    password: uirhknñowejñljsdui
